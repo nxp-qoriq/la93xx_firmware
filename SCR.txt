@@ -2,7 +2,7 @@
 -   Name: apm.eld
 -   Version: 0.1
 -   Outgoing License: DN_Binary_Firmware_License_Agreement
--   Format: source code
+-   Format: binary
 -   Description: LA931x VSPA core binaries and demos pre-build binaries
+-   Location: https://github.com/nxp-qoriq/la931x_firmware
 -   Origin: NXP Proprietary
--   Location: la931x_firmware
