@@ -1,7 +1,11 @@
+NXP Software Content Register
+----------------------------------------------------------------------------------------------------------------------------
+LA9310 VSPA application binaries for LA9310 SoC
+---------------------------------------------
 -Firmware
--   Name: apm.eld
+-   Name: *.eld
 -   Version: 0.1
--   Outgoing License: DN_Binary_Firmware_License_Agreement
+-   License: EULA.txt
 -   Format: binary
 -   Description: LA931x VSPA core binaries and demos pre-build binaries
 -   Location: https://github.com/nxp-qoriq/la931x_firmware
