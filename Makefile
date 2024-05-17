@@ -5,7 +5,8 @@ FIRMWARE_DIR := $(PWD)/firmware
 all:
 
 install:
-	install -D ${FIRMWARE_DIR}/* ${FIRMWARE_INSTALL_DIR}/
+	mkdir -p ${FIRMWARE_INSTALL_DIR}/
+	install -D ${FIRMWARE_DIR}/*.eld ${FIRMWARE_INSTALL_DIR}/
 
 clean:
-	rm -f ${FIRMWARE_INSTALL_DIR}/*.eld
+	rm -f ${FIRMWARE_INSTALL_DIR}/*
